@@ -1,0 +1,147 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = jkjwmc.help
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1744984930259
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:350fb875-1376-4208-b07f-4bcebdcef197-1744984919252] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
+element {
+  interactable = true
+  source = # 即开即玩 Minecraft 玩家新手教程%n%## 游戏内操作%n%W：前进%n%S：后退%n%A：向左%n%D：向右%n%空格：跳跃%n%按住 Ctrl 键移动：疾跑%n%按住 Shift 键移动：潜行%n%E：打开背包%n%Esc：进入游戏菜单/关闭界面/关闭背包%n%## 进阶%n%如果你已经学会了上面的操作，想要学习更进阶的操作，可以查询[进阶教程](https://zh.minecraft.wiki/w/Tutorial:%E6%96%B0%E6%89%8B%E6%89%8B%E5%86%8C)。%n%## 声明%n%本项目只是对原版 Minecraft 制作的优化版，本项目不隶属于 Mojang 或 Microsoft。
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 210c789b-64aa-421d-a8ff-1f58edf539b2-1744984113366
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1011
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -265
+  y = -113
+  width = 531
+  height = 228
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = dc4f12a2-9f07-4d75-9603-115b1811a351-1744984113366
+  [loading_requirement_container_meta:dc4f12a2-9f07-4d75-9603-115b1811a351-1744984113366] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = 3b2a83c4-124a-47c7-9dac-2288bbb0afbd-1744984733798
+  [executable_action_instance:44697e4c-f1fc-48de-bc53-f25e353eaf92-1744984758455][action_type:closegui] = 
+  [executable_block:3b2a83c4-124a-47c7-9dac-2288bbb0afbd-1744984733798][type:generic] = [executables:44697e4c-f1fc-48de-bc53-f25e353eaf92-1744984758455;]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = 返回
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 05d6b3d3-245b-44f0-a754-75ea3fb6af8c-1744984733798
+  [loading_requirement_container_meta:05d6b3d3-245b-44f0-a754-75ea3fb6af8c-1744984733798] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = custom_button
+  instance_identifier = 111ac54f-a435-430f-a551-b6665eed625f-1744984733797
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1011
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -50
+  y = 130
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 6ce295ec-fbdb-4476-befa-2e02e559acda-1744984733797
+  [loading_requirement_container_meta:6ce295ec-fbdb-4476-befa-2e02e559acda-1744984733797] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+}
+
